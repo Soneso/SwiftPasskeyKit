@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/Soneso/stellar-ios-mac-sdk", .upToNextMajor(from: "3.0.6")),
+        .package(url: "https://github.com/Soneso/stellar-ios-mac-sdk", .upToNextMajor(from: "3.2.0")),
         //.package(path: "/Users/chris/Soneso/github/stellar-ios-mac-sdk") // local, if it is not updateing, you can use fix_spm_cache.sh
     ],
     targets: [
